@@ -19,5 +19,6 @@ persist_directory = 'db'
 docsearch = Chroma(persist_directory = persist_directory, embedding_function = embeddings)
 qa = VectorDBQA.from_chain_type(llm = llm, chain_type = "stuff", vectorstore = docsearch)
 
-query = "How do I differentiate log(x)?"
-print(qa.run(query))
+while True:
+  query = input("Query: ")
+  print(qa.run(query))
