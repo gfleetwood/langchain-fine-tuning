@@ -30,3 +30,11 @@ This app can be easily deployed on a platform like streamlit hub.
 
 Chroma is an open souce vector database which stores the generated embeddings locally in a specified folder. Besides that the structure outlined for Pinecone carries over. Given the locally stored embeddings, the size of folder can balloon to many megabytes, so deploying is more complicated.
 
+## Misc
+
+Links for some data sources:
+
+https://openstax.org/details/books/calculus-volume-1
+
+https://www.fool.com/earnings/call-transcripts/2023/02/14/palantir-technologies-pltr-q4-2022-earnings-call-t/
+
