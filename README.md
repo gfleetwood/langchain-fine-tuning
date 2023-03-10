@@ -1,5 +1,9 @@
 # Introduction
 
+https://langchain.readthedocs.io/en/latest/modules/document_loaders/examples/image.html?highlight=loader
+
+https://langchain.readthedocs.io/en/latest/modules/document_loaders/examples/unstructured_file.html
+
 This is a template for fine tuning Chat GPT on new data using langchain. You need to have an OpenAI account and an api key accessible as an environment variable called:
 
 OPENAI_API_KEY
